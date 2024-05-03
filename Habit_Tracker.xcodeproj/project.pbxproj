@@ -14,6 +14,7 @@
 		CD2CA8092BE4FEA2005B23AB /* Habit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CA8082BE4FEA2005B23AB /* Habit_TrackerTests.swift */; };
 		CD2CA8132BE4FEA2005B23AB /* Habit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CA8122BE4FEA2005B23AB /* Habit_TrackerUITests.swift */; };
 		CD2CA8152BE4FEA2005B23AB /* Habit_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CA8142BE4FEA2005B23AB /* Habit_TrackerUITestsLaunchTests.swift */; };
+		CD2CA8222BE507A5005B23AB /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CA8212BE507A5005B23AB /* Habit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CD2CA80E2BE4FEA2005B23AB /* Habit_TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Habit_TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2CA8122BE4FEA2005B23AB /* Habit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITests.swift; sourceTree = "<group>"; };
 		CD2CA8142BE4FEA2005B23AB /* Habit_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD2CA8212BE507A5005B23AB /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CD2CA7F72BE4FEA1005B23AB /* Habit_TrackerApp.swift */,
 				CD2CA7F92BE4FEA1005B23AB /* ContentView.swift */,
+				CD2CA8212BE507A5005B23AB /* Habit.swift */,
 				CD2CA7FB2BE4FEA2005B23AB /* Assets.xcassets */,
 				CD2CA7FD2BE4FEA2005B23AB /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2CA8222BE507A5005B23AB /* Habit.swift in Sources */,
 				CD2CA7FA2BE4FEA1005B23AB /* ContentView.swift in Sources */,
 				CD2CA7F82BE4FEA1005B23AB /* Habit_TrackerApp.swift in Sources */,
 			);
