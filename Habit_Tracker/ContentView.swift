@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    // Här simulerar vi en lista med vanor
-    let habits: [Habit] = [
+    @State private var habits: [Habit] = [
         Habit(name: "Dricka vatten", lastCompletedDate: Date(), streak: 3),
         Habit(name: "Läsa en bok", lastCompletedDate: Date(), streak: 5)
     ]
@@ -24,6 +23,12 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Mina Vanor")
+            .navigationBarItems(trailing: Button(action: {
+                let newHabit = Habit(name: "Nytt träningspass", lastCompletedDate: Date(), streak: 1)
+                habits.append(newHabit)
+            }) {
+                Image(systemName: "plus")
+            })
         }
     }
 }
@@ -33,6 +38,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
 #Preview {
     ContentView()
